@@ -1,0 +1,28 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.zdk.demo.config.DruidConfiguration",
+      "name": "spring.datasource",
+      "sourceMethod": "public javax.sql.DataSource druidDataSource() ",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "com.zdk.demo.bean.User1",
+      "name": "test.user",
+      "type": "com.zdk.demo.bean.User1"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.zdk.demo.bean.User1",
+      "name": "test.user.age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zdk.demo.bean.User1",
+      "name": "test.user.username",
+      "type": "java.lang.String"
+    }
+  ]
+}

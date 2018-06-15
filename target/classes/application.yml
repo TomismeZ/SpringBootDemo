@@ -1,0 +1,38 @@
+#test:
+#  user:
+#    username : zhangsan
+#    age : 18
+#    toString: the age of ${test.user.username} is ${test.user.age}
+#    
+#spring:
+#  profiles:
+#    active: dev
+
+ 
+# spring:
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/db_user
+#    username: root
+#    password: 123456
+   
+  spring:
+   mail:
+    host: smtp.126.com  
+    username: dunkun0907@126.com 
+    password: zdk111111 #上面获取设置的授权码  
+    default-encoding: UTF-8 
+
+    
+  mybatis:
+   type-aliases-package: com.zdk.demo.bean
+   mapper-locations: classpath:mybatis/mapper/*.xml
+   config-location: classpath:mybatis-config.xml
+
+# 开启调试模式，打印sql
+  logging:  
+   level: 
+    com.zdk.demo.mapper: DEBUG 
+   
+  
+    
